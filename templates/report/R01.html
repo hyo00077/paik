@@ -1,0 +1,456 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="ko">
+
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta content="width=1080, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" name="viewport">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="{% static "js/jquery-ui.js" %}"></script>
+    <script src="{% static "js/jquery.ui.touch-punch.min.js" %}"></script>
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <link rel="stylesheet" type="text/css" href="{% static "css/style.css" %}">
+    <link rel="stylesheet" type="text/css" href="{% static "css/normalizer.css" %}">
+    <link rel="stylesheet" type="text/css" href="{% static "css/pretendardvariable.css" %}">
+    <!-- animsition.css -->
+    <link rel="stylesheet" href="{% static "css/animsition.css" %}">
+    <script src="{% static "js/animsition.js" %}"></script>
+  </head>
+
+  <body>
+    <div class="animsition">
+      <div class="wrapper_1080">
+        <header>
+          <a href="{%url 'main' %}" class="animsition-link">
+            <div class="beforeBtn"></div>
+          </a>
+          <div class="titleArea">
+            <h2 class="articleTitle">종이 없는 사회를 위한 확장된 교육</h2>
+            <h2 class="articleTitle En">Expanded Education For Paperless Society</h3>
+          </div>
+          <div></div>
+        </header>
+        <div class="topContents h-scrollable" id="swiper">
+          <div class="pagingInfo"></div>
+          <div class="wrap carousel sliders">
+            <div class="gallery-cell img img_fields_a"><img class="postImg" src="{% static "source/imgsrc/P01_01.jpg" %}">
+              <div data-section="1" class="selection_1"></div>
+              <div data-section="2" class="selection_2"></div>
+              <div data-section="3" class="selection_3"></div>
+              <div data-section="4" class="selection_4"></div>
+              <div data-section="5" class="selection_5"></div>
+              <div data-section="6" class="selection_6"></div>
+              <div data-section="7" class="selection_7"></div>
+              <div data-section="8" class="selection_8"></div>
+              <div data-section="9" class="selection_9"></div>
+              <div data-section="10" class="selection_10"></div>
+              <div data-section="11" class="selection_11"></div>
+              <div data-section="12" class="selection_12"></div>
+              <div data-section="13" class="selection_13"></div>
+              <div data-section="14" class="selection_14"></div>
+            </div>
+            <div class="gallery-cell img img_fields_b"><img class="postImg" src="{% static "source/imgsrc/P01_02.jpg" %}">
+              <div data-section="15" class="selection_1"></div>
+              <div data-section="16" class="selection_2"></div>
+              <div data-section="17" class="selection_3"></div>
+              <div data-section="18" class="selection_4"></div>
+              <div data-section="19" class="selection_5"></div>
+              <div data-section="20" class="selection_6"></div>
+              <div data-section="21" class="selection_7"></div>
+              <div data-section="22" class="selection_8"></div>
+              <div data-section="23" class="selection_9"></div>
+              <div data-section="24" class="selection_10"></div>
+              <div data-section="25" class="selection_11"></div>
+              <div data-section="26" class="selection_12"></div>
+            </div>
+          </div>
+        </div>
+        <div class="parent">
+          <div class="scrollbarThumb"></div>
+        </div>
+
+        <div class="bottomConents v-scrollable">
+          <section data-section="1">
+            <h1>위대한 사상가들</h1>
+
+            <p>근래 들어, 특히 16밀리 발성영화를 손 쉽게 접할 수 있게 되면서 우리가 위대한 사상가의 이미지와 목소리를 아예 또는 거의 잃어버렸다는 사실은 기이하다 싶을 정도의 실책이 아닐 수 없다. 예를 들어 우리는 후설, 프로이트, 프로스트, 조이스, 칸딘스키, 베르데예프, 메를로퐁티, 스즈키, 지드, 토마스만, 쇤베르크, 바레즈, 바르톡, 몬드리안, 딜타이, 비트겐슈타인, 쇼, 발레리, 융, 케인스, 부버 등에 대한 기록이 거의 없다. 심지어 니체와 톨스토이까지도 토마스 에디슨이 그랬듯 영화의 시대가 도래한 뒤로도 살아있었다. 이런 달갑지 않은 기이함은 가장 최신 오락영화와 히틀러 뉴스가 얼마나 많이 촬영되었는가를 떠올려볼 때 교육 자원의 가장 큰 낭비이다. 따라서 언제 유명을 달리할 지 모를 오늘날의, 그리고 어제의 위대한 사상가들, 예컨대 마르셀 뒤샹, 야스퍼스, 하이데거, 가브리엘 마르셀, 오르테가 이 가세트, 루카치, 토인비, 라다크리슈단, 에른스트 블로흐, 니버, 풀러, 샤르트르, 러셀 등과 같은 이들의 이미지와 목소리를 충분하고도 넘칠 정도의 분량으로 촬영하는 것보다 더 긴급하고 성공적인 과제는 없다. 이들을 인터뷰할 사람도 자격을 갖춘 철학자여야 하며 카메라 스태프도 가능한 적은 숫자여야 한다. 그래야 야스퍼스나 하이데거가
+              <첼시 걸즈chelsea="걸즈Chelsea" girls="Girls">처럼 자연스럽게 이야기할 수 있다. NBC나 NET 스타일의 고가 촬영 기법은 이런 프로젝트에 불필요한 정도가 아니라 오히려 해로울 수 있다.
+              </p>
+            </section>
+            <section data-section="2">
+              <h1>철학</h1>
+              <p>미국에는 5천개의 대학이 있고, 여기에 필요한 철학 교원의 숫자는 2만명이다 철학을 가르칠 자격을 갖춘 교원의 부족은 심각하며, 특히 2년제 대학 수준에 가면 상황이 더 심하다. 철학 과목은 자동장치나 컴퓨터화된 퀴즈 기계로는 별 소득을 얻을 수 없다. “철학함”이라는 지고의 활동은 전 인격의 총체적인 관여를 요구한다. 그러므로 비디오테이프, 영화, 오디오장치, 루프 테크닉, 비선형적 프린팅 테크닉, 라이트 아트, 스트로보스코프, 의료용 전자기기, 뇌파 전송 등과 같은 새로운 정보 기술은 위대한 철학자들의 메시지를 가감 없이 그대로 전달하고, 학생들 스스로의 “철학함”을 자극하며, 나아가 포스트매클루언적이고, 비선형적이며, 보다 도상학적이고, 모든 것이 연루되는 22세기 철학을 준비하는 데 쓰여야 한다. 만약 철학이 수백 년 간 지켜왔던 그 헤게모니를 되찾고자 한다면, 철학을 공부하는 학생들은 양피지 문헌 대신 오늘날의 전자기적 상황에도 노출되어야 한다.
+              </p>
+              <p>물론 야스퍼스와 하이데거 스스로가 자신들에 대해 설명하는 것이 철학교육의 질적이고 양적인 발전을 위한 가장 강력한 수단일 것이다. 이 기술은 인격과 학문이 본질적으로 결합되는 다른 인문학과 사회과학 분야에도 적용된다.
+              </p>
+            </section>
+            <section data-section="3">
+              <h1>독서보조기(Reading Aids)
+              </h1>
+              <p>비디오테이프 독서보조기는 원어와 영어로 된 주요 철학 고전작품에도 유용할 수 있다. IBM은 음악과 관련된 컴퓨터용 회화 인덱스를 만들고 있다. 같은 작업을, 만약 이미 진행 중이지만 않다면, 철학에 관한 회화적인 자료에 대해서도 같은 작업을 할 수 있을 것이다. 물론 철학 비디오테이프 가이드에 대한 내 아이디어는 초상, 출생지 등의 단순한 집적과는 거리가 멀다.
+              </p>
+            </section>
+            <section data-section="4">
+              <h1>음악</h1>
+              <p>대체로 서양 음악은 시간(소리)과 공간(음표와 그 외 다양한 시각적 요소들) 사이에서 벌어지는 다면적인 변증법적 투쟁으로 파악할 수 있다. 그러므로 비디오테이프 리코더의 영향은 작곡(전자 오페라), 음악학(몽펠리에나 만하임에 있는 모든 자료에 즉시 접근할 수 있도록 비디오테이프에 담긴 아이트너 사전 전체) 그리고 음악 교육에서 아무리 강조해도 지나치지 않다. 비디오테이프를 통해 사운드트랙에 시각적 요소(악보, 글자로 적어둔 설명, 그리고 때로는 연주자 자신)가 동시적으로 수반되면 음악의 흐름을 깨지 않고 교사의 시간도 절약하면서 학습과 감상이 더 풍성해질 것이다. 비디오테이프의 소리가 나가는 동안 그에 따르는 정보들이 관련된 비디오 영상에 보이도록 할 수 있다.
+              </p>
+            </section>
+            <section data-section="5">
+              <h1>인스턴트 글로벌 대학</h1>
+              <p>캔터키에 있는 여학생이 일본 악기 고토를 배우고 싶거나 UCLA 졸업생이 페르시아나 아프가니스탄의 어떤 악기를 배우고 싶다면 어떻게 할 것인가?</p>
+              <p>우송 가능한 텔레비전(즉 비디오테이프)은 각자가 다양한 과목의 교육을 어디서든 받을 수 있도록 해 줄 것이다. 예를 들어, 한 미국 대학의 음대생 스무 명이 비디오테이프를 활용하여 일본 황실 음악인 가가쿠 오케스트라의 스무 개 악기를 배우고, 그 다음에 정식 복장을 갖추고 일본으로 콘서트 투어를 갈 수 있을 것이다. 이것은 일본인들에게 페리 제독이 준 것만큼이나 굵직한 문화적 충격이 될 것이다. 이 기술은 눈에는 덜 띄지만 좀더 실질적인 분야에 적용된다.
+              </p>
+            </section>
+            <section data-section="6">
+              <h1>성악 수업
+              </h1>
+              <p>대부분의 성학과 학생들은 그토록 힘들게 오페라를 공부해 놓고도 정작 오페라 공연은 한 번 못해보고 대학 과정을 마친다. 이런 식의 반쪽짜리 공부는 학생들을 다시 반쪽짜리 선생으로 만든다. 오페라 공연은 가장 뛰어난 재능을 가진 사람만을 위한 전유물이 되어서는 안 된다. 다음의 비디오 Erstaz는 성악과 학생들이 오페라 성황을 지금보다 훨씬 더 많이 맛보고, 리허설 타임도 십중팔구 줄어들게 해줄 것이다. 이것은 가령
+                <라 트라비아타="트라비아타">
+                  같은 실제 공연들도 빈도가 늘어가는 효과를 가져온다.
+                </p>
+                <p>
+                  <b>첫번째 필름</b>(혹은 비디오테이프)는 소프라노 파트에 국한하여 관련된 모든 것을 다르고, 소프라노 파트 리허설을 위해 사용한다.
+                  <br>
+                  <b>두번째 필름</b>은 마찬가지 방식으로 테너 파트를 위해,
+                  <br>
+                  <b>세번째 필름</b>은 마찬가지 방식으로 바리톤 파트를 위해,
+                  <br>
+                  <b>네번째 필름</b>은 마찬가지 방식으로 베이스 파트를 위해 만든다.<br>
+                  필름은 연기 수업을 원활하게 하기 위해 벽 네 개에 동시에 틀 수 있다.
+                </p>
+                <p>대중음악 분야에서는 이미 실용가능한 것으로 입증된 이 방법은 심지어 연극에도 적용된다. 맥베스 없는 맥베스, 햄릿 없는 햄릿, 줄리엣 없는 로미오 등이 되는 식이다. 십대의 오필리어도 스크린을 통해 로렌스 올리비에가 연기하는 햄릿과 함께 공연할 수 있다. 이 모든 계획은 3D홀로그램이 무대에서 구현된다면 훨씬 더 효과적일 것이다.
+                </p>
+                <p>한 파트가 없는 간단한 코러스 작품은 시창 연습에 도움을 주고, 악기 하나가 빠진 현악 사중주는 리허설 시간을 줄여서 교통체증도 살짝 누그러뜨릴 것이다.
+                </p>
+              </section>
+              <section data-section="7">
+                <h1>a. 중세 음악
+                </h1>
+                <p>원전, 현대의 전사(transcription) 작업, 음악학적 문제는 소리(양식 분석 그리고 예컨대 단선율-트로푸스-시퀀스-모테투스 등의 발전) 그리고 네우마(중세 성가의 악보에 쓰인 기호-옮긴이)의 문제들Neumen problems(“가장 정석대로 부른 그레고리오 성가도 19세기에 지은 고딕복고 양식의 성당만큼 진짜가 아니다.”-베셀러)과 평행한다.
+                </p>
+              </section>
+              <section data-section="8">
+                <h1>b. 다성음악(13-17 세기)
+                </h1>
+                <p>화살표 등으로 표시한 난해한 다성 기법. 오케겜의 32파트 푸가는 이 방법을 통해 역사상 처음으로 온전히 감상할 수 있을 것이다. 바흐의
+                  <코랄 전주곡="전주곡">(코랄: 루터파 교회의 찬송가-옮긴이),
+                    <푸가의 기법="기법">도 마찬가지다.
+                    </p>
+                  </section>
+                  <section data-section="9">
+                    <h1>c. 고전음악
+                    </h1>
+                    <p>주제의 발전, 대규모 형식의 분석, 그리고 해석적인 문제(가령, 논란이 분분한 강약법, 프레이징, 상이한 원전, 운지, 지휘, 호흡, 내부 파트에 대한 다양한 강세, 훈련되지 않은 귀는 놓치기 일쑤인 마르콴토Marquanto)
+                    </p>
+                  </section>
+                  <section data-section="10">
+                    <h1>d. 낭만주의 시대의 음악</h1>
+                    <p>비디오테이프에서 라이트모티브의 전개를 따라 감으로써 표제음악을 망각으로부터 구할 수 있다. 텍스트와 멜로디의 상관성(최근 음악학 분야에서 어느 정도 반향을 일으킨 게오르기아데스 교수의 슈베르트 가곡) 그리고 기능 화성의 저하도 마찬가지다.
+                    </p>
+                  </section>
+                  <section data-section="11">
+                    <h1>e. 음렬 음악과 전자 음악</h1>
+                    <p>전자기 소리의 변수 전체, 주파수 분석, 기술적 정보의 전반적인 조직화에 과한 지적 정보. 슈톡하우젠과 불레즈의 어떤 음악에서는 악보의 복잡성 때문에 악보와 함께 소리를 단순히 따라가는 것이 대단히 어렵다. 그리고 이 “악보 음악(paper music)”(좋은 의미에서)은 정확한 연주가 불가능하기 때문에 악보에 대한 이해가 필요하다.
+                    </p>
+                  </section>
+                  <section data-section="12">
+                    <h1>g. 이벤트 음악과 행위 음악
+                    </h1>
+                    <p>공연 전체를 녹음하는 것 외에는 음악을 표기하는 방법이 없는 경우가 종종 있다. 슈톡하우젠과 리게티가 나의 행위음악 작품들(1951-61)을 촬영하여 그 필름을 악보로 쓰자고 제안했는데, 나는 철학적인 이유로 이것을 거절했다. 그러나 브레히트, 치아리, 크리스티안센, 히달고, 고수미 패터슨, 슈네벨, 시오미, 톤, 벨린, 영 등과 같은 이들의 많은 이벤트 음악(이제는 세계 각국에서 볼 수 있는)의 경우, 비디오테이프가 개략적인 안내를 위한 유용한 보조 수단이 될 수 있다.
+                    </p>
+                  </section>
+                  <section data-section="13">
+                    <h1>f. 음악 그래픽</h1>
+                    <p>“이런 종류의 “악보 음악”에서는 소리와 표기가 너무나 동떨어져 있기 때문에 상상력의 이중 유희가 이해에 없어서는 안될 부분이 된다. 청취자는 케이지의 피아노 협주곡에서 사과 모양이 나오면 가온 도를 누르는 반면 벨린은 같은 표시를 보면 피아노 밑으로 내려가 너트를 먹는다는 사실을 알아야 한다. 개념에 대한 이런 ‘페티시즘’은 팝 아트, 미니스커트, 포트란 블록 다이어그램을 관통하며 20세기 문화의 양식적인 표준이다. 비결정론적 음악에서 악보를 따라가는 일은 결정론적 음악에서와 반대되는 의미에서 필수불가결하다.
+                    </p>
+                  </section>
+                  <section data-section="14">
+                    <h1>h. 혼합매체 음악
+                    </h1>
+                    <p>모든 오페라 그리고 모든 비유럽권 음악은 혼합매체음악이다. 비디오테이프는 실제 연주를 제외하고 그 음악을 정통으로 공부할 수 있는 유일한 방법이다. 라비 샹카르와 포크웨이 레코드(Folkways Records)의 성공 이후로 장벽이 사라진 민족학적 음악에서는 비디오테이프가 최대한의 위력을 발휘한다. 가령, 피치와 음색(배음, 포르만트)의 음향학적 분석은 구시대적이고 때로는 모욕적인 오음계 전사(transcription)를 대체해야 한다. 오음계는 19세기 유럽의 발명품이다.</p>
+                    <p>i. 젊은 세대는 점점 더 시각적으로 편향되고 있으며 총체적이고 즉각적인 지각에 대한 열망도 커졌다. 새로이 작곡되는 곡을 포함하여 고전 음악은 ‘전자비디오 녹화’의 시대에 어떤 양상을 띨 것인가? 위의 시도들 그리고 여기에 더한 좀더 유토피아적인 연구 등은 이 커다란 질문을 위한 예비적인 시도이다.</p>
+                  </section>
+                  <section data-section="15">
+                    <h1>전자적 학문 커뮤니티
+                    </h1>
+                    <p>그러나 매클루언조차 “전기적(electric)”와 “전자적(electronic)”이란 단어를 오용하고 혼동하여 사용했는데, 이것은 조성(tonal)과 무조성(atonal)의 그것만큼이나 큰 차이가 있다. 그러므로 학계 일반은 언급할 것도 없다. 학자 집단 전체의 관심을 이 전자적 상황에 철저히 집중시키도록 하기 위해 다음과 같은 이벤트를 제한한다.
+                    </p>
+                  </section>
+                  <section data-section="16">
+                    <h1>동서 문제
+                    </h1>
+                    <p>소수집단 대륙의 소수집단 국가인 한국의 시민으로서, 따라서 어쩔 수 없이 냉소적인 관찰자이며, 18년을 홍콩에서 카이로, 레이캬비크를 떠돌며 서양언어 3개 국어와 동양언어 3개국어를 습득한 사람인 나는 동서문제에 특히나 예민하다. 전 일본 주재 미국 대사 라이샤우어는 이 문제에 관한 한 초등학교 수준부터 전면적인 재검토를 주장했다. 확실히 동양과 서양 간 소통은 가장 큰 커뮤니케이션 연구 과제이다. 교토대학교의 한 교수는 이렇게 썼다. “만약 동양이 서양에 대해 아는 것의 10분의 1만큼만 서양이 동양에 대해 안다면 더 이상의 전쟁은 없을 것이다.”
+                    </p>
+                    <p>a) 중국의 시와 철학의 모호성은 그 어떤 수단보다 비디오테이프를 통해 잘 설명될 수 있다. 정신적 과정의 반성적인 사유와 풍부한 연상, 서체적인 내용과 양식, 고유한 만다린 사운드트랙 등은 중국 시의 많은 변수들을 현재의 인쇄 방식보다 훨씬 더 잘 전달한다. 이 기술은 말라르메나 발레리 등이 쓴 모호한 프랑스시인들의 작품에도 적용된다. 가령 프랑스 원어민의 낭독 등이 포함되면 유용할 것이다.</p>
+                    <p>b) 인도에서 가족계획(family planning) 정책사업의 80퍼센트를 차지하는 것은 홍보이고, 여기에 특화된 존재가 예술가들이다. 인도의 마을주민에게 다가가는 유일한 방법은 혼합매체 언어이며 이것이야말로 아방가르드 예술가의 모국어다. 한편 일류 광고전문가는 결코 인도에 가지 않을 것이며, 아마도 삼류 전문가는 인도에서 삼류의 업무를 하고 일류 전문가만큼의 돈을 받을 것이다. 엉뚱한 비전, 비정통적인 접근, 풍부한 상상, 그리고 가장 중요하게는 인도에 대한 진정한 사랑과 인도 문화를 공부하고 존중하려는 의지, 이 모든 것이 예술가들을 가족계획 사업을 위한 준비된 홍보 전문가로 만들어줄 것이며, 그 어떤 다른 집단보다 예술가들 사이에서 이 일을 위한 재능을 더 많이 찾을 수 있을 것이다.
+                    </p>
+                  </section>
+                  <section data-section="17">
+                    <h1>아카이브</h1>
+                    <p>정보화 시대에 대학도서관은, 양해를 무릅쓰고 조금 무례한 비유를 들자면, 미국의 CIA만큼이나 활성화될 것이다. 그러므로, 위에서 언급한 야스퍼스와 하이데거 필름을 포함하여 다음과 같은 형태의 아카이브를 제안하는 바이다.
+                    </p>
+                    <p>a. 환경과 내적 공간의 느낌은 책이나 영화를 통해 전달 불가능하다. 하지만 소규모 유적(중소형 고딕성당, 룩소르의 이집트 동굴, 교토 료안지 바위정원, 그리고 시스틴 성당까지도)은 큰 수영장이나 체육관보다 작다. 벽 4면과 천정에 컬러 슬라이드 멀티프로젝션으로 투영하면 다른 전통적인 수단에 비해 이런 유적지가 주는 실제 느낌을 훨씬 더 잘 재현할 수 있다. 예를 들어 샤르트르 대성당이나 교토 바위정원의 경우, 색유리창이나 돌의 색감이 하루 동안 시간의 흐름이나 계절의 바뀜에 따라 조금씩 그러나 꾸준히 변화하는 양상이야말로 시끌벅적한 가이드를 따라 정신없이 서두르는 여행보다 이 예술적인 내용에 대해 더 많은 정보를 줄 것이다. 특히 오리지널 성당 코러스 같은 것이 동시에 재생된다면 금상첨화이다. 축구장에서 아크로폴리스 전체를 재현하는 일도 가능할지 모른다. 이 프로젝트는 상당한 기술적 어려움이 따르긴 하지만, 디즈니사와 같은 기업이라면 천막을 가지고 이런 환경을 구축하고 다양한 대학 캔버스들을 돌 수 있을 것이다.
+
+                    </p>
+                    <p>b) 바사리, 스탕달, 괴테, 빙켈만, 러스킨, 페이터, 뵐플린, 드보르작, 보링거, 베렌슨, 바이들, 제들마이어 등의 고전주의 미술사가들의 다양한 언급을 곁들인 유명 예술작품
+                    </p>
+                    <p>c) 어떤 장소 또는 풍경과 구체적인 연관성을 갖는 문학작품들은 비디오테이프로 녹화할 수 있다. 그런 방식으로 학생들은 친절히 묘사된 안내를 받으며 외국어도 배우면서 문학적인 산책을 경험할 수 있다. 가령 괴테의 『이탈리아 기행』, 지드의 『콩고 여행』, 토마스 만의 『마의 산』, 샤르트르의 『구토』의 모델이 되었던 도시 부르주, 프로스트의 프랑스 장면들, 바쇼의 『오쿠노 호소미치』 등의 작품이 그렇다.
+                    </p>
+                  </section>
+                  <section data-section="18">
+                    <h1>슬라이드 또는 비디오테이프의 새로운 용도</h1>
+                    <p>a. 나는 이미 사용한 적이 있는 컴퓨터테이프(0.5인치)를 소니 비디오테이프 녹화기에서 사용할 수 있다는 사실을 발견했다. 물론 비디오와 오디오의 상당한 손실이 있고, 예술적인 또는 엔터테인먼트 용도의 수준에는 한참 미치지 못한다. 그럼에도 이것을 이용하면 한 시간짜리 TV 프로그램을 1달러(새로운 테이프 가격에 비하면 50분이 1이다)에 녹화할 수 있다. 1960년대 TV 프로그램의 1만 시간 테이프는 장래에는 대단히 취약할 것이다. 커널 스트리트의 중고 컴퓨터테이프 공급은 바싹 씨가 말라버렸지만, 컴퓨터로부터 매달 남거나 이미 사용된 테이프가 상당량 나오기 때문에 대기업과 대학 간의 사전협의가 가능할 것이다. 이런 저렴한 비디오 녹화의 가능성은 간간이 대학 캔버스 장면을 쉽게 녹화할 수 있도록 해주기도 할 것이다.
+
+                    </p>
+                    <p>
+                      b. 오디오테이프 도서관<br>
+
+                      나는 일부 기관들이 WBAI, 파시피카(Pacifica) 라디오, WNYC 등의 중요한 라디오방송국을 녹화하고 있다고 생각한다. 금세기의 이런 중요한 자료들, 가령… 라디오방송국의 ‘모든’ 패널 토의 등을 녹화하고 있는 것이다. 이런 작업도 좀더 저렴하게 할 수 있다.
+
+                    </p>
+                    <p>c. 앨런 브라이언트는 프린스턴 출신의 음악가로 스스로를 전일제 음악 수집가이자 시간제 작곡가라고 부른다. 이 전직 애국자는 1959년 이후로 독일과 이탈리아 라디오방송국의 많은 신음악 방송을 테이프로 녹화해오고 있다. 그는 귀중한 전세계 초연과 희소성 있는 연주를 해왔지만, 나로서도 현재 그의 컬렉션 상황에 대해서는 아는 바가 없다. 약간의 결함이 없지 않겠지만 그럼에도 그 컬렉션은 여전히 가치가 있으며, 틀림없이 미래에도 그럴 것이다.
+
+                    </p>
+                    <p>d. 슈투트가르트의 치과의사 하인츠 좀(Heinz Sohm)은 1960년부터 현재에 걸친 가장 포괄적이고 대단히 전문적인 유럽 아방가르드 아카이브를 보유하고 있다. 전문가들 사이에서도 매우 높은 평가를 받는다.
+                    </p>
+                  </section>
+                  <section data-section="19">
+                    <h1>a.</h1>
+                    <p>미국 그리고 십중팔구는 해외에도 캠퍼스에 수십 곳 이상의 TV 방송국이 있다. 학생 TV 방송국의 컨텐츠는 반드시 보관되어야 하며, 이것은 저널리즘 등으로부터 광범위한 관심을 끌 것이다.
+                    </p>
+                  </section>
+                  <section data-section="20">
+                    <h1>b.
+                    </h1>
+                    <p>학생들끼리 보는 정례 소식지 외에도 ‘학생회는 자체 뉴스나 논평 등을 발표하기 위해 자체 TV 방송국을 활용할 필요가 있다.’
+
+                    </p>
+                  </section>
+                  <section data-section="21">
+                    <h1>c.</h1>
+                    <p>연감과 졸업사진 외에도, 모든 학생은 비디오테이프를 이용하여 짤막한 자기소개용 스피치나 활동을 촬영해두면 학생식당이나 중앙 복도에서 TV를 통해 계속 상영할 수 있을 것이다. 대중화의 흐름만 탄다면 ‘졸업앨범이 전자비디오 디스크가 될 수 있다.’ 각 학생에게 30초씩만 할애해도 하루에 학생 천 명을 소개할 수 있다.
+
+                    </p>
+                  </section>
+                  <section data-section="22">
+                    <h1>d.</h1>
+                    <p>규모가 큰 대학에서는 교수진과 학생회 간의 상호연결이 부족하다는 지적이 종종 있다. 나는 단순하면서도 효과적인 해결책을 촉구한다. ‘주요 교수진,’ 특히 총장과 학과장은 ‘정기적인 TV 담화를 내보내고,’ 학생회와 토론회를 개최하며, ‘이것을 녹화한 비디오는 학생들이 모이는 장소마다 밤낮으로 상영해야 한다.’ 비디오녹화 시스템은 학생들에게도 주어져서 상위행정조직에 ‘자신들의 답변을 전달’할 수 있게 될 것이다. 많은 대학들이 백만달러 상당의 텔레비전 시스템을 갖추고 있지만 현재로서 그것들은 “잠자는 공주”에 지나지 않는다.
+                    </p>
+                  </section>
+                  <section data-section="23">
+                    <h1>e.</h1>
+                    <p>프랑스, 독일, 이탈리아, 스페인, 러시아의 텔레비전은 학생들이 모이는 곳마다 계속 틀어 놓아야 한다. (자연스럽게) 언어 공부도 되고 국제적인 의식을 함양하는(여기서도 인스턴트 글로벌 대학 개념이 적용된다) 데도 도움을 주는 것은 물론, 저널리즘, 정치감각, 예술, 경제 등을 공부하는 데도 유용하다. (일본) TBS방송국은 2개 국어 방송 시스템을 갖추고 있었고, 지금 우리는 이 시도가 현재 어느 상태에 와 있는지를 조사 중이다. 이렇게 되면 영어권 사람들이 일본의 주요 TV 방송국 가운데 한 곳의 방송을 이해할 수 있게 되는 것이다.
+                    </p>
+                  </section>
+                  <section data-section="24">
+                    <h1>f.</h1>
+                    <p>
+                      스토니브룩 대학교, 링컨센터 도서관, 컬럼비아 사범대학교 등에 음악에 관한 교육용 영상 카탈로그를 요청한 바 있다. 결과는 형편없었다. 나는 미국과 해외의 몇몇 TV 프로그램에 출연했었지만, 지금 이것은 추적도 불가능하고 미궁에 빠져버렸다. 대단히 교육적인 내용을 담고 있었던 몇몇 좋은 음악, 프로그램 등을 시청한 기억이 있지만 이 모든 것이 방송국이라는 심해에서 사라져버렸다. 최소한 음악, 미술, 철학과 관련된 교육용 영상과 비디오테이프의 국제적인 카탈로그가 반드시 제작되어야 하고, 또는 제작되고 있다면 서둘러야 한다. 또한 슈바이처, 부버, 쇼, 카뮈, 스즈키 등과 같이 최근 작고한 위대한 사상가들의 촬영한 8밀리 아마추어 영상 조각조각들을 포함한 영상들의 남아있는 뉴스릴을 복구하는 구조활동도 ‘너무 늦기 전에’ 이뤄져야 한다.
+                    </p>
+                  </section>
+                  <section data-section="25">
+                    <h1>g.</h1>
+                    <p>
+                      … 나의 ‘전자 컬러텔레비전 실험이 교육적인 자료로서 가치가 있다’고 말한 리처드 하첼(Richard Hartzell)의 견해에 감사한다.
+                    </p>
+                    <p>
+                      수십 가지의 놀이 가능성이 하나의 콘솔에 집결되어 유치원이나 초등학교에 배급될 수 있다. 이것이 가져오는 교육적 효과는 다음과 같다.
+                    </p>
+                    <p>1) 아이들이 전자기 매체 상황에 매우 일찍 노출된다.
+                      <br>
+                      2) 나의 전자TV는 진폭변조, 레이다, 다양한 종류의 주자(scanning), 음극선, 섀도우마스크 튜브, 오실로스코프, 옴의 법칙, 배음, 자기 문자(magnetic character) 등과 같은 물리학과 전자공학의 다양한 기초적 사실을 보여주므로, 이런 중요한 사실들을 배울 수 있는 아주 재밌는 방법이다.
+                      <br>
+                      3) 전자 드로잉의 가능성도 제공한다. 내가 제공하는 방식은 멀티컬러이기 때문에 라이트펜보다 더 우수하며, 방송 프로그램과 훨씬 더 많은 상호작용이 가능하다.
+                      <br>
+                      4) 나의 컬러 TV는 일상용품을 이례적이고 비정통적으로 응용하므로, 아이들의 창조적이고 선입견이 덜한 사고활동을 자극한다.
+                      <br>
+                    </p>
+                    <p>열 가지 가능성의 부속 장치가 2~3백 달러 정도에 제작 가능하다. 가장 저렴한 18인치 컬러텔레비전 수상기는 소매가 244달러이며, 도매가로는 180달러까지 가능할 것이다. 따라서 총 비용이 500달러 이하로 추정된다.
+                    </p>
+                  </section>
+                  <section data-section="26">
+                    <h1></h1>
+                    <p>“이성적인 것이 현실적인 것이고, 현실적인 것이 이성적인 것이다”(헤겔)<br>
+                      “좀더 교육적인 것인 가장 미학적이고, 가장 미학적인 것이 가장 교육적이다.”(백남준)
+                    </p>
+                  </section>
+
+                </div>
+              </content>
+            </div>
+          </div>
+        </body>
+        <script type="text/javascript">
+          $scrollable = $('.v-scrollable');
+          //make scrollbar
+          var $scrollbar = $(".scrollbarThumb"),
+            height = $scrollable.outerHeight(true), // visible height
+            scrollHeight = $scrollable.prop("scrollHeight"), // total height
+            barHeight = height * height / scrollHeight; // Scrollbar height!
+
+          console.log(barHeight);
+
+          // Scrollbar drag:
+          $scrollbar
+            .height(barHeight)
+            .draggable({
+              axis: "y",
+              containment: "parent",
+              drag: function (e, ui) {
+                console.log(ui.position.top + ' | dragging');
+                console.log(scrollHeight / height * ui.position.top + ' | draggingamount');
+                $scrollable.scrollTop(scrollHeight / height * ui.position.top);
+              }
+            });
+
+          // Element scroll:
+
+          // Element scroll:
+          //       $scrollable.on("scroll", function () {
+          //         $('section[data-section] h1').each(function(index, item){
+          //                 console.log($(this).position().top);
+
+          //                 if($(this).position().top>=-5 && $(this).position().top<=5){
+          //                         console.log('222');
+          // var currentSection = $(item).closest('section').attr("data-section");
+          // var findData2 ='div[data-section="' + currentSection +'"]';
+          // $('.on').each(function(){ $(this).removeClass('on');});
+          // $(findData2).addClass('on');
+          //                         console.log(currentSection);
+          //                         if(currentSection>14){
+          //                 $(".carousel").slick("slickGoTo", 1);
+          //         }else if(currentSection<=14){
+          //                 $(".carousel").slick("slickGoTo", 0);
+          //         }
+          //                 }
+
+          //         });
+
+          //       });
+          //       var scrolloffsetting = [];
+          //         $('section[data-section]').each(function(index, item){
+          //                 scrolloffsetting[index] =  $(this).position().top+20;
+          //                  console.log(scrolloffsetting[index] + 'index' + index);
+          //         });
+
+          var currentScrollsection = 0;
+          var currentSlidersection = 0;
+          let scrollpositionsetting = [];
+          scrollpositionsetting[0] = 0;
+          setTimeout(() => {
+            $('section[data-section]').each(function (index, item) {
+              scrollpositionsetting[index + 1] = scrollpositionsetting[index] + $(this).outerHeight() + 5;
+              // console.log(scrollpositionsetting[index]);
+              // console.log('+');
+              // console.log($(this).outerHeight());
+              // console.log('=');
+              // console.log(index +'인덱스+1 해서 생각');
+              // console.log(scrollpositionsetting[index + 1]);
+              if (index == 14) {
+                //                 console.log("-----------------------------------");
+                // console.log(scrollpositionsetting[index + 1]);
+                // console.log(this);
+                // console.log($(this).outerHeight());
+              }
+            });
+          }, 300);
+          $scrollable.on("scroll", function () {
+            $scrollbar.css({
+              top: $('section')
+                .position()
+                .top * -1 / height * barHeight
+            });
+
+            $.each(scrollpositionsetting, function (index, item) {
+              if ($('section').position().top * -1 >= this) {
+                return currentScrollsection = index + 1;
+              }
+            });
+            console.log(scrollpositionsetting);
+            var findData2 = 'div[data-section="' + currentScrollsection + '"]';
+            $('.on').each(function () {
+              $(this).removeClass('on');
+            });
+            $(findData2).addClass('on');
+            if (currentScrollsection > 14) {
+              $(".carousel").slick("slickGoTo", 1)
+            } else if (currentScrollsection <= 14) {
+              $(".carousel").slick("slickGoTo", 0)
+            };
+          });
+
+          // console.log(scrollpositionsetting);
+
+          $('div[data-section]').click(function () {
+            var gotoSection = $(this).attr("data-section");
+            gotoSection -= 1;
+            // console.log($(findData1).offset().top);
+            // console.log(scrolloffsetting[gotoSection]);
+            $scrollable.animate({
+              scrollTop: scrollpositionsetting[gotoSection] + 5
+            }, 200);
+            if (gotoSection > 14) {
+              $(".carousel").slick("slickGoTo", 1);
+            } else if (gotoSection <= 14) {
+              $(".carousel").slick("slickGoTo", 0);
+            }
+          });
+          $(document).ready(function () {
+            let sliderConatainer = $(".carousel");
+            $(".carousel").slick({
+              dots: false,
+              infinite: false,
+              autoplay: false,
+              speed: 200,
+              fade: false,
+              variableWidth: true,
+              centerMode: true,
+              cssEase: "ease-in-out"
+            });
+
+            $(".animsition").animsition({
+              inClass: 'fade-in',
+              outClass: 'fade-out',
+              inDuration: 800,
+              outDuration: 800,
+              linkElement: '.animsition-link',
+              // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+              loading: true,
+              loadingParentElement: 'body', //animsition wrapper element
+              loadingClass: 'animsition-loading',
+              loadingInner: '', // e.g '<img src="loading.svg" />'
+              timeout: false,
+              timeoutCountdown: 5000,
+              onLoadEvent: true,
+              browser: [
+                'animation-duration', '-webkit-animation-duration'
+              ],
+              // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+              // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+              overlay: false,
+              overlayClass: 'animsition-overlay-slide',
+              overlayParentElement: 'body',
+              transition: function (url) {
+                window.location.href = url;
+              }
+            });
+          });
+
+          var $status = $('.pagingInfo');
+
+          $(".carousel").on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+            //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+            var i = (
+              currentSlide
+              ? currentSlide
+              : 0) + 1;
+            $status.text(i + '/' + slick.slideCount);
+          });
+        </script>
+
+      </html>

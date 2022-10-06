@@ -1,0 +1,397 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="ko">
+
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta content="width=1080, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" name="viewport">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="{% static "js/jquery-ui.js" %}"></script>
+    <script src="{% static "js/jquery.ui.touch-punch.min.js" %}"></script>
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <link rel="stylesheet" type="text/css" href="{% static "css/style.css" %}">
+    <link rel="stylesheet" type="text/css" href="{% static "css/normalizer.css" %}">
+    <link rel="stylesheet" type="text/css" href="{% static "css/pretendardvariable.css" %}">
+    <link rel="stylesheet" href="{% static "css/animsition.css" %}">
+    <script src="{% static "js/animsition.js" %}"></script>
+  </head>
+
+  <body class="animsition">
+    <div class="wrapper_1080">
+      <header>
+        <a href="{%url 'main' %}" class="animsition-link">
+          <div class="beforeBtn"></div>
+        </a>
+        <div class="titleArea">
+          <h2 class="articleTitle">어떻게 실험 비디오를 PBS 전국 방송에 존속시킬 것인가</h2>
+          <h2 class="articleTitle En">How to keep Experimental Video on PBS National Programming</h3>
+        </div>
+        <div></div>
+      </header>
+
+      <div class="topContents h-scrollable" id="swiper">
+        <div class="pagingInfo"></div>
+        <div class="wrap carousel sliders">
+          <div class="gallery-cell"><img class="postImg" src="{% static "source/imgsrc/P03_01.jpg" %}"></div>
+          <div class="gallery-cell"><img class="postImg" src="{% static "source/imgsrc/P03_02.jpg" %}"></div>
+          <div class="gallery-cell"><img class="postImg" src="{% static "source/imgsrc/P03_03.jpg" %}"></div>
+          <div class="gallery-cell"><img class="postImg" src="{% static "source/imgsrc/P03_04.jpg" %}"></div>
+          <div class="gallery-cell"><img class="postImg" src="{% static "source/imgsrc/P03_05.jpg" %}"></div>
+          <div class="gallery-cell"><img class="postImg" src="{% static "source/imgsrc/P03_06.jpg" %}"></div>
+          <div class="gallery-cell"><img class="postImg" src="{% static "source/imgsrc/P03_07.jpg" %}"></div>
+          <div class="gallery-cell"><img class="postImg" src="{% static "source/imgsrc/P03_08.jpg" %}"></div>
+          <div class="gallery-cell"><img class="postImg" src="{% static "source/imgsrc/P03_09.jpg" %}"></div>
+          <div class="gallery-cell"><img class="postImg" src="{% static "source/imgsrc/P03_10.jpg" %}"></div>
+          <div class="gallery-cell"><img class="postImg" src="{% static "source/imgsrc/P03_11.jpg" %}"></div>
+          <div class="gallery-cell"><img class="postImg" src="{% static "source/imgsrc/P03_12.jpg" %}"></div>
+          <div class="gallery-cell"><img class="postImg" src="{% static "source/imgsrc/P03_13.jpg" %}"></div>
+        </div>
+      </div>
+      <div class="parent">
+        <div class="scrollbarThumb"></div>
+      </div>
+
+      <div class="bottomConents v-scrollable" draggable="false">
+        <section data-section="1">
+          <p class="center noindent"><br><br>
+            <b>어떻게 실험 비디오를 PBS 전국 방송에 존속시킬 것인가</b><br>
+            1979년 6월 6일
+            <br><br>
+            백남준
+          </p><br><br>
+        </section>
+        <section data-section="2">
+          <p>최근 발간된 카네기위원회 보고서 『공공신탁A Public Trust』은 공영 텔레비전이 혁신과 연구개발에 더 많이 매진해야 한다고 올바르게 지적했다. 필자는 포드 재단의 텔레비전 뉴스쇼 “공영방송 실험실(Public Broadcasting Laboratory)”가 방영되던 시절인 1968년부터 보스턴 WGBH와 뉴욕 WHET과 일하면서 텔레비전 업계에 몸담아 왔다. 이 같은 개인적인 경험을 토대로 구체적인CONCRETE 몇 가지 계획을 제안하고자 한다.
+          </p>
+          <hr>
+          <p>지금 우리에게 더 큰 혁신이 필요하다는 사실을 모르는 사람은 없다. 하지만 혁신적인 프로그램이 항상 그 예술가의 생전에 인기를 얻는다는 보장이 없다는 사실도 안다. 그렇다면 우리는 세금 지원으로 운영되는 텔레비전 방송에 예술가들의 다소 이색적인 프로그램이 편성되는 것을 어떻게 정당화할 수 있을까?
+          </p>
+          <hr>
+          <p>만약 PBS가 대중에게 대중이 원하는 내용만을 방송한다면 상업방송과 다를 바 없어질 것이고, 스스로 자멸하는 길이 될 것이다. 그러나 PBS가 대중이
+            <strong>보아야만SHOULD</strong>
+            하는 것을 방송한다면 그 역시 자멸하는 길이 된다. 어떤 대중도 그것을 고분고분 따르지 않을 것이기 때문이다.
+          </p>
+          <p>이 딜레마를 어떻게 풀 것인가?</p>
+          <hr>
+          <p>고대 중국인들은 “군자가 되기는 어렵지 않다. 군자를 찾는 것이 더 어렵다.”고 했다. 그 옛날에도 선정과 편집은 쉬운 문제가 아니었던 것 같다. 그런 의미에서 이보다 좀 더 성공적인 모습의 다른 정보처리 분야, 곧 출판과 사진 저널리즘의 사정부터 먼저 살펴보고자 한다.
+          </p>
+          <p class="nomargin_bottom">가령
+            <더블데이>의 편집자는 미국 대통령에서부터 대학 2학년생에 이르는 수많은 저자들이
+              <strong>이미 완성해서ALREADY COMPLETED</strong>
+              투고한 수천 편의 원고에 둘러싸인다. 고료가 비싼 원고라고 해서 예컨대 자기 작품이 출판되는 것 하나만을 바라고 무상으로 송고한 아방가르드 시인의 시보다 반드시 더 좋다는 법은 없다.</p>
+          </section>
+          <section data-section="3">
+            <p class="nomargin_top">출판사는 이 두 원고를 모두 대중에게 보여줄 수 있고, 사실상 검열도 없다. 마찬가지로,
+              <파퓰러 포토그래피="포토그래피">의 편집자도 완성된 1만 점의 사진 가운데 몇 점의 좋은 작품을 추리는 호사를 누린다. 이런 식으로 저작물의 경쟁과 다양성이 보장된다. (게다가 물론 발표창구가 하나만이 아니다)
+              </p>
+              <p>반면 텔레비전에서는 이 선정 과정이 완전히 뒤집힌다. 프로그램 감독은 완성된 저작물이 아니라 단순한 아이디어나 대본 정도만 보고 프로그램을 선정한다. 따라서 텔레비전 방송을 목표로 하는 창작자들은 승인된 대본으로 파일럿 프로그램을 만들기 위해
+                <strong>사전 펀딩PRIOR FUNDING</strong>이 필요하다. 나는 이
+                <strong>사전 펀딩</strong>이라는 필요악이 새로운 인재가 만든 작품의 95퍼센트는 자동 탈락시키는 결과를 낳는다고 생각한다. 텔레비전 시스템에서는 누구도 무명의 인물에게 제작 예산을 할당하는 위험은 감수하지 않기 때문이다.
+              </p>
+              <p>문학계를 보아도 제임스 조이스나 헨리 밀러, 장 폴 사르트르 같은 위대한 작가들이 자신의 첫 번째 저작에 대해 선급금을 받은 적은 없다. 많은 위대한 시인들도 등사판 인쇄로 첫 시집을 냈다. 오늘날의 방송국 선별 시스템 안에서 도대체 어떤 무명의 신진 작가가 펀딩이라는 절차를 무사히 통화할 수 있을까?
+              </p>
+              <hr>
+              <p>
+                <strong>따라서, 미국의 텔레비전 방송이 많은 발전을 이루려면 이러한 사전 펀딩 시스템이 사라지고 문학이나 사진 분야에서처럼 많은 창작자들이 제공한 무상의 완성작 가운데 최고의 작품을 선정할 수 있도록 해야 한다. (!!!)
+                </strong>
+              </p>
+              <p class="nomargin_bottom">영국방송공사(BBC)는 PBS의 모델이 되어서도, 될 수도 없다. BBC는 영국 전체에 단
+                <strong>한 대ONE</strong>의 타자기만 존재한다는 고루한 철학을 기반으로 운영되고 있으며, 그들의 임무는 그 타자기를 완벽하게 만드는 것이다. 다른 면에서는 자유주의 철학을 가졌을지 몰라도, 그들의 실존 형태만큼은 말 그대로 독재적이다.</p>
+            </section>
+            <section data-section="4">
+              <p class="nomargin_top">미국 텔레비전은 누구나 표현과 참여를 위해 “모든 사람이 자신만의 타자기를 가져야 한다”고 말하는 철학을 가져야 한다. 진정한 의미의 공영PUBLIC 텔레비전을 이룩하기 위해 생각해볼 만한 유일한 방법은 결국 이것뿐이다. 공영 텔레비전은 다수의 목소리가 방송을 비롯하여 다른 새로운 창구들을 이용할 수 있는 교환대가 되어야 한다.
+              </p>
+              <p>이 유토피아적인 예언은 이미 꽤 구체적인 전망이 되었다. 현재 전 세계적으로 사용되는 VTR은 3백만 대에 달한다. 1983년에는 3천2백만 대(미국에 1천5백만 대, 유럽에 1천만 대, 그리고 일본에 7백만 대)가 보급될 것이다.
+              </p>
+              <p>CCD 카메라와 “저렴한” 테크놀로지의 등장으로 우리는 곧 비디콘(vidicon) 튜브 없는 컬러 카메라를 도너츠처럼 찍어낼 수 있게 될 것이다.
+              </p>
+              <p>1995년 즈음이 되면 미국 시민은 현재 시, 사진, 춤, 노래 등으로 자신을 표현하는 것처럼 비디오테이프를 이용해 쉽고도 값싸게 자신을 표현할 수 있게 될 것이다. 그때가 되면 공영 텔레비전은 새로운 기반 위에 서게 될 것이고, 우리는 그때 3차 카네기위원회 구성을 요구해야 할지 모른다!
+              </p>
+              <hr>
+              <p class="nomargin_bottom">물론, 한방향 텔레비전에서 쌍방향 텔레비전으로 이행하는 이 코페르니쿠스적 혁명을 이끈 주역은 예술가들이다. 나는 윌리엄 웨그만(Willam Wegman)이 자신의 반려견 ‘만 레이’를 데리고 최초로 찍었던 비디오테이프의 정치적 의미는 아무리 강조해도 지나치지 않다고 생각한다. 웨그만은 그 어떤 사전 펀딩 없이 가장 원시적인 소니 CV 장비만으로 미술관 관람객에서
+                <투나잇 쇼="쇼">와
+                  <투데이 쇼="쇼">의 프로듀서들, 그리고 그 프로그램의 시청자에 이르는 그야말로 광범위한 사람들의 마음을 사로잡은 작품을 만드는 데 성공했다. 그러나 NBC가 이 비디오를 두 차례, 그리고 지역방송에서도 WNET와 WGBH가 이것을 수 차례 내보낸 뒤에도 유독 PBS의 엔지니어들만은 복지부동으로 이 비디오를 방송하지 않았다.</p>
+                </section>
+                <section data-section="5">
+                  <p class="nomargin_top">이런저런 우여곡절 끝에 미연방통신위원회(FCC: Federal Communications Commission)로부터 수직귀선기간(VBI: Vertical Blanking Interval) 표준 위반으로 25,000달러 벌금형을 받을 수 있다는 경고를 듣고 난 뒤에야 PBS는 마지못해 웨그만의 비디오를 방영했다. 그래서 몇 군데 안되는 소수의 PBS 방송국만이 이것을 방송할 수 있었다.
+                  </p>
+                  <hr>
+                  <p>우리의 서재는 텔레비전 방송에 비해 훨씬 다양한 주제와 사람의 지성을 훨씬 깊이 자극하는 내용들로 채워진다. 책들은 대부분
+                    <strong>사전 펀딩PRIOR FUNDING</strong>
+                    없이 창작을 시작한 작가들의 산물이기 때문이다. 그러나 텔레비전 방송은 대개
+                    <strong>사전 펀딩PRIOR FUNDING</strong>
+                    이후 프로듀서들에 의해 시작된다. 앞으로 15년에서 20년 정도면 타임시프팅 장치인 홈 VTR가 더 광범위하게 쓰이면서 펀딩과 선정 방식에서도 점진적인 변화가 일어날 것이며, 더불어 프라임타임 시청 시간도 지금의 하루 3시간에서 하루 24시간으로 늘어날 것이다! 그 때 PBS는 대단히 지적이되 대중적 호소력은 낮은 프로그램들은 예컨대 새벽 3시쯤에 방송하고, 관심 있는 시청자는 이것을 녹화한 다음 나중에 시청할 수 있게 될 것이다.
+                  </p>
+                  <hr>
+                  <p class="nomargin_bottom">우선 나는 쌍방향의 예술가주도형 프로그램을 방송할 것을 제안한다. 아방가르드 실험 프로그램이 아니라
+                    <strong>“DIY(DO IT YOURSELF)”</strong>의 시연으로서 말이다. 시청자 참여 프로그램은 출판 저널리즘의 경우 편집자에게 보내는 편지인 “애비에게Dear Abby,” 사진잡지의 “아마추어 코너,” 그리고 라디오의 “전화신청” 쇼 등과 같은 선례가 있다. 요즘 들어서는 기술 수준이 높지 않은 경우에도 시청자들이 방송에 쉽게 참여할 수 있다. 이런 식으로 우리는 판을 바꿔가고 있다. 예술가의 실험 비디오는 더 이상 저예산 오락물로 분류되지 않고 보통 사람들의 가장 성공적인 비디오 창작물이 될 것이다. PBS의 프로그래머들이 항상 우려해 마지않는 중부 아메리카는 이 같은 프로그램에 훨씬 더 열광적으로 호응할 것이다. 여흥 거리가 다양한 동부 해안 지역에 비해 중부 아메리카에서는 가정용 컴퓨터 등을 포함하여 고기능 쌍방향 비디오 제품이 더 많이 팔리기 때문이다.
+                  </p>
+                </section>
+                <section data-section="6">
+                  <p class="nomargin_top">점점 가속화되는 에너지 위기는 비도시권 미국인들이 여가 패턴을 자동차와 스테이크에서 정보 게임으로 바꾸도록 종용할 것이다. 컴퓨터와 비디오와 같은 반 중력저항 제품들(non-gravity resisting products)은 에너지 효율이 높으므로 인플레이션 방지 효과가 있다. 이것들은 자동차, 철강, 스테이크 등의 고에너지 제품들보다 상대적으로 가격이 내려갈 것이다. 우리는 시청자에게 각자가 만든 아마도 몇 분 정도일 비디오테이프를 공중파를 통해 판매하도록 유인하고 홈비디오 콘테스트를 개최하여 시상도 할 수 있다. 기업들이 이러한 프로그램의 후원자가 될 수 있다. 이것은 ‘퍼블릭액세스’ 채널과 매우 다를 것이다. 이 경우에는 아주 유능한 편집자가 선정과 편집에서 전적인 자유를 누렸을 것이다. 예술가의 전위적인 비디오는 잡지 포맷의 다른 다큐멘터리 쇼와 믹싱될 수 있다. 다행스럽게도, 비디오아트의 새로운 경향은 짧은 단편을 제작하는 것이다. 개개의 프로그램 앞에 예술가의 슬라이드 또는 예술가나 아마추어 창작자가 제작한 짧은 도입부를 붙일 수 있고, 그 결과 시청자들은 그것과 훨씬 쉽게 접점을 형성할 수 있다. 기술 표준의 측면에서도 크게 우려할 필요는 없다.
+                  </p>
+                  <p>
+                    새로운 시간 축 교정장치(time base corrector)들이 시간 기반 실수를 대부분 바로잡을 수 있다. 그러나 실패한다고 해도 고해상도 카메라로 테이프를 재스캔할 수 있다. 윌리엄 웨그만의 반려견 테이프와 존 라일리의
+                    <아이리시 테이프irish="테이프IRISH" tapes="TAPES">는 일반 스튜디오 카메라로 재스캔했고 두 테이프 모두 성공적으로 방송되었다. 결국에 시청자는 기술적 특성이 아니라 정보를, 특히 그 정보가 충분히 재미있을 때 진정으로 추종한다. 달착륙 장면은 최악의 화질인 최고의 텔레비전 방송이었다!
+                    </p>
+                    <p class="nomargin_bottom">결국, PBS는 두 개의 기술표준을 받아들여야 한다. 하나는 전문적인 오락성을, 나머지 하나는 저변의 대중적 비디오를 위한 것이다. 이것은 자연스러운 발전이다.
+                      <뉴욕타임스>는 “센데이 매거진” 섹션(패션 광고)에는 고품질 용지를 쓰고 뉴스 섹션에는 그보다 덜한 품질의 용지를 쓴다.
+                      </p>
+                    </section>
+                    <section data-section="7">
+                      <p class="nomargin_top">인쇄 저널리즘에는 종이 품질에 대한 정부 규제가 없기 때문에 텔레비전은 동기 펄스(sync pulse)나 시간 축 교정 같은 기술 표준을 확립하는 것도 해야 한다. 인쇄 저널리즘에서는 글을 싸구려 종이에 인쇄한다는 이유만으로 인쇄를 금지시키려 드는 것은 상상조차 할 수 없는 일이다.
+                      </p>
+                      <p>하지만 우리 비디오 아티스트들은 이런 자의적인 규제 속에 15년을 살아왔다. 우리 독립 프로듀서들은 필요하다면 연방대법원에 대해서라도 FCC-NBA가 규정한 기술 표준의 합헌성 여부를 물어야 한다. 사실상 이것은 수정헌법 위반에 해당하기 때문이다. 법률비용은 미국시민자유연맹(ACLU)을 비롯한 몇몇 의식 있는 재단에게 도움을 요청할 수 있다. 수직귀선 규제라는 제멋대로의 테러 아래 살아왔던 개인적인 고통 때문에 나는 누구보다 이것을 목청 높여 말한다. 이 법은 가정용 TV에 거의, 99퍼센트, 아무런 효과도 발휘하지 못한다. 내가 한층 더 화났던 것은 절대 다수의 상업 방송국들은 ENG(electronic news gathering) 카메라, 곧 전자식 뉴스 취재용 미니카메라로 뉴스를 방송하거나 시트콤
+                        <왈가닥 루시i="루시I" love="Love" lucy="Lucy">를 재방송할 때 이런 규제를
+                          <strong>어김없이REGULARLY</strong>
+                          무시했다는 사실이다. NBC나 CBS, ABC 뉴스가 이 규제를 무시했던 것을 감안할 때, WNET 지역방송국은 우리에게 매우 관용적이었다. 하지만 PBS 전국 방송 엔지니어들은 끊임없이 우리를 곤란하게 했다. 텔레비전의 건강한 발전에 수직귀선 규제만큼 방해가 되는 법은 없다.
+                        </p>
+                        <p>비록 시간 축 교정장치에 새로운 프레임 버퍼가 도입되면서 이 문제는 지금 해결되었지만, 공중파 독점을 이어갈 목적으로 다시 새로운 인공 장벽이 세워지지 않도록 우리는 경계를 늦추지 말아야 한다. 우리에게 필요한 유일한 기술적 규제는 10년 혹은 그 이상 된 텔레비전 수상기에서도 어지간하면 화면 프레임이 안정적이 되도록 동기 펄스(sync pulse)를 안정화시키는 법이다. 이것 외에 미국방송협회(NAB) 같은 업계 기구들이 만든 기술 표준 가운데 과연 수정헌법을 근거로 법정에서 따져보았을 때 무사할 수 있는 조항이 있기나 할지 상상이 되지 않는다.</p>
+                        <p class="nomargin_bottom">모든 예술가가 후방의 아마추어 비디오작가들이 만든 것과 동일한 시리즈로 방송에 나가는 것을 반기지는 않을 것이다.
+                        </p>
+                      </section>
+                      <section data-section="8">
+                        <p class="nomargin_top">예술작품은 특히 최소한의 (미적) 어휘만으로 작업할 시 멋진 프레임이 필요할 때가 왕왕 있다. 하지만 전국 공중파로 비디오아트 작품을 방영하려는 시도가 계속해서 좌절되다 보니 이제는 “비상구”의 존재가 절실해졌다. 우리가 WNET와 WGBH의 방송 시간, 특히 밤 11시 이후 프라임타임 시간대를 상당히 잠식하기는 했지만(WNET의 TV-Lab에서 지금까지 프로그램 100개를 수월하게 방송했다. 편성표의 끝부분에 배치된 나의 30분짜리 작품만 세어보면 알 수 있다. 시청률도 꽤 좋았고 평가도 고무적이었다.), 전국 공중파 방송에 정규 편성되는 것은 계속 실패해왔고, 설사 성공한 경우에는 지역방송국에서 방송되지 않았다.
+                        </p>
+                        <p class="">펀딩에 관한 한, 문제는 더 심각하다. 록펠러 재단의 지원 첫 3년에 해당되는 1967년에서 1969년 사이 WGBH는 매년 한 프로그램당 10만 달러를 지원했다. 그 이후로, 미국 공영방송공사(CPB: Corporation for Public Broadcasting)를 통해 배분되는 연방정부 자금은 1969년의 고작 5백만 달러에서 1979년에는 1억2천만 달러로 늘어났다. 24배가 증가한 것이다! 하지만 끔찍하게도 방송국(전국방송과 지역방송 모두)의 지원은 사실상 0에 가까운 수준으로 축소되었다.
+                        </p>
+                        <p class="">카네기위원회 보고서는 방송프로그램기금(Program Services Endowment)을 매년 1억9천만 달러 정도로 계획하나. 이 기금의 유일한 기능은 텔레비전 프로그램, 특히 “창조적인 프로그램”의 제작이 될 것이다. 해당 내용을 인용해보겠다.
+                        </p>
+                        <p class="narrow">방송국들은 전국 단위로 주류 프로그램과 서비스를 제공하는 데 상당한 재원을 사용할 것이므로, 본 기금은 프로그램 제작과 원거리 통신 서비스 면에서
+                          <strong>
+                            비관습적이고, 창조적이고, 검증되지 않은 아이디어</strong>에 집중할 것이다. 이런 아이디어는 방송국이 개별이든 연합 형태로든 기금을 지출하는 모험을 감수할 여지가 적을 것이기 때문이다. (강조는 필자).
+                        </p>
+
+                        <p class="nomargin_bottom">특별히, 2차 카네기위원회는 오로지 연구와 개발에만 천만 달러를 투자할 것을 권고한다(132쪽과 246쪽). 지금까지 우리가 이룬 성과를 고려할 때, 이 새로운 지원금에서 작은 파이조각 하나 정도는 충분히 얻을 자격이 있다.</p>
+                      </section>
+                      <section data-section="9">
+                        <p class="nomargin_top">나아가 2차 카네기위원회는 “본 기금은 독립 텔레비전 프로듀서들의 다양한 재능을 활용할 수 있는 방송 포맷을 개발하는 것을 사명으로 하는 ‘독립 텔레비전 센터Center for Independent Television’를 지원”할 것을 명시했다.(168쪽)</p>
+                        <hr>
+
+                        <p>저에너지 GNP가 전체 경제를 지탱할 수 있을 만큼 충분히 커질 것인가? 뉴욕주 상원의원 윌리엄 콘클린(William T. Conklin)이 예술과 예술가에 대해 수행한 방대한 연구가 다이넬 벨의 예언(고정보-저에너지 부문을 우리 후기산업사회의 주된 동력으로 간주한)을 뒷받침한다. 이 보고서에 의하면 예술가와 예술 기관은 뉴욕주 경제에 10억 달러를 기여했다. 10억 달러는 메릴랜드주, 버지니아주, 테네시주 정도 크기의 한 개 주 총수입과 맞먹는다.
+                          <hr>
+                        </p>
+                        <p>이 가상의 ‘독립 텔레비전 센터’의 작은 부분으로서, 필자는 다음과 같은 다섯 가지 구조(mechanism)를 제안하고자 한다.</p>
+                        <p>뉴욕의 문화 활동은 이 도시의 존립을 위한 심장이자 이유에 해당하는 광대한 영역의 비즈니스를 위한 초석이 된다. 뉴욕의 예술과 오락은 개인뿐만 아니라 이 도시의 재정적 생명줄인 기업에게도 이 도시의 정체성, 우월성, 매력을 이루는 토대 가운데 하나이다. 문화적 활동과 자금지원의 개선은 핵심적이다.
+                        </p>
+                        <p class="narrow num">
+                          <b>A. 기금 프로그램</b><br>
+                          프로그램 선정 과정은 반드시 다음의 조건을 충족시켜야 한다.
+                          <br>
+                          1) 도중에 귀중한 재원이 사라지지 않도록 저렴하고 신속해야 한다.<br>
+                          2) 프로그램 감독 개인 한 사람의 취향은 차단되어야 한다.
+                          <br>
+                          3) 지원금은 방송국이나 스태프 프로듀서가 아닌 개인에게 직접 가야 한다.
+                        </p>
+                        <p class="narrow num nomargin_bottom">
+                          <b>B. 순회 편집자(Roving Editors)</b><br>비디오아트 분야의 한 가지 현안은 사람들이 지나치게 많은 시간의 미편집 테이프를 가지고 있다는 사실이다. “미디어버스” 한 곳만 해도 1969년 이후부터 500시간이 넘는 미편집본이 있다.</p>
+                      </section>
+                      <section data-section="10">
+                        <p>이들 중 일부는 시간이 지나면서 가치가 상승했다. 비디오는 “시간 동결(freezing time)”이라는 독특한 특징이 있어서 즉각적인 재생보다는 시간을 둔 역사적인 피드백이 더 흥미로워지기도 하기 때문이다. 병목현상은 발생하는 곳은 편집과정이다. 이것은 예술가들이 테이프를 편집할 장비가 모자라서이기도 하지만, 자신의 원자료를 보면서 비판적이고 엄격하게 선별할 수 있는 지적인 훈련과 기술이 모자라기 때문이기도 하다. 따라서 새로 건립될 ‘독립 텔레비전 센터’가 그러한 혼돈된 자료에서 방송 가능한 프로그램을 편집해 낼 수 있는 대단히 유능한 편집자를 고용한다면, PBS 측은 큰 유익을 얻을 것이다. 물론 많은 예술가들이 자신의 작품에 제삼자가 손대는 것에 항의할 것이다. 하지만 예컨대 분당 1천 달러 같은 풍성한 보상이 주어진다면 이런 식의 발췌 작업과 공존할 수 있는 예술가들을 충분히 확보할 수 있을 것이다.</p>
+                        <p>이런 편집자들은 반드시 텔레비전 방송국의 프로그램 감독들 또는 그들이 인정할 만한 사람들이 뽑아야 한다. 그래야만 감독이 편집자의 판단을
+                          <strong>철저히FULLEST</strong>
+                          신뢰할 수 있다. 대형 텔레비전 방송국의 감독은 너무 바쁘고, 믿을 수 있는 부하직원이나 프로듀서와의 언어적 소통에 의존할 수 밖에 없다. 비디오테이프를 보는 일은 시간을 소모해야 하는 일이고, 그렇다고 프로그램 감독에게 하루 24시간을 28시간으로 늘리라고 부탁할 수는 없는 노릇이므로 우리는 독립 프로듀서들과 프로그래머 모두에게 편리할 수 있는 메커니즘을 만드는 수밖에 없다. 내가 생각하는 바는, 프로그램 감독이 자신과 일할 편집자를 선택하고, 대신
+                          <strong>우리WE</strong>
+                          예술가들이 그 편집자의 급여를 지불함으로써 거부권을 행사할 수 있도록 하자는 것이다. 그 편집자는 자신의 급여가 어디에서 오는지를 알 것이므로, 예술가와 독립 프로듀서들을 위해 더 많은 방송 시간을 확보하고자 싸울 수밖에 없을 것이다.
+                        </p>
+                        <p class="narrow num nomargin_bottom">
+                          <b>C. 지역 편집 센터(Community Editing Centers)</b><br>최근 들어 가장 고무적인 변화는 록펠러 재단, 미국 국립예술기금, 뉴욕예술위원회 측이 설립했거나 지원하는 지역 편집센터의 숫자가 늘어나고 있는 점이다.</p>
+                      </section>
+                      <section data-section="11">
+                        <p class="narrow nomargin_top">편집은 중추신경계이고, 눈에 해당하는 카메라는 그보다 주변적이다. 사람들이 카메라의 질에 쏟는 관심은 지나치게 많고, 편집에 대한 관심은 여전히 충분치 않다. 프로듀서들과 심지어 지원주체들마저도 얼른 높은 가시성을 보여주는 프로그램에 예산 안배를 선호하며, 상대적으로 이익 회수가 느린 편집 장비에는 돈을 쓰지 않는다. 편집 장비는 암실만큼 저렴해야 하며, 또 저렴해질 수 있다. 만약 조이스틱 장치(근사하지만 내구성은 약한)만 제외한다면, 장비가 적절히 관리된다는 전제하에 8천 달러짜리 시스템으로 2년간 하루에 1만~2만 시간을 만들어낼 수 있다. 이렇게 되면 시간당 비용이 1달러가 될 것이다. 편집센터 비용의 주된 부분은 인건비와 장소 대여료(행정, 엔지니어, 그리고 장소 대여)이다. 이 비용은 한두 사람이 너덧 대의 장비를 관리한다면 더 줄어들 수 있다! 이어폰 기능을 사용하면 같은 방을 여러 사람이 사용하는 것도 가능하다. 모든 주요 도시들은 적어도 다섯 대의 편집 장비를 갖춘 이 같은 공용 편집센터를 갖추고 있어야 한다. 국립예술기금의 R과 D 예산은 이미 시작된 이런 추세를 고려하여 반드시 증액되어야 한다.
+                        </p>
+                        <p class="narrow num">
+                          <b>D. 비용 효율성 검증</b><br>재정 자립은 자유의 선제 조건이다. 그리고 쌍방향 비디오도 마찬가지다. 예술가들은 다시 이 투쟁에서 선두에 섰다. 과거의 “전형적인” 교육 방송 프로그램에서는 하드웨어 스튜디오 비용이 엄청났으므로 프로듀서들이 따로 시각적 측면과 연구를 전담할 유능한 인력을 고용할 엄두조차 내지 못했다. (예외는 있었다.) 그 결과, 앉아서 입으로 떠드는 사람들로만 화면이 채워졌다. 프로듀서-예술가들은 예산에서 하드웨어와 소프트웨어의 상관 비율을 정하는 문제에 있어 여지가 많아야 한다. 예를 들어 마스터링을 3/4 인치 포맷으로 바꾸면 그로 인해 절약되는 수천 달러의 비용으로 모스크바로 왕복 여행이 가능하다. 필자의 비디오
+                          <뉴욕-모스크바 비디오="비디오" 셔틀="셔틀" new="New" york-moscow="York-Moscow" media="Media" shuttle="Shuttle">(디미트리 데비아킨과 협업)의 경우, 일부는 4/3인치 테이프로, 일부는 2인치 테이프로 섞어서 마스터링을 했다. 이 비디오는 미 전역에 한 차례 그리고 WHET를 통해 세 차례 방송되었다. 누구도, (PBS 엔지니어는 고사하고) 심지어 신이라 할지라도 3/4인치 테이프로 마스터링된 부분과 2인치 테이프로 마스터링 된 부분을 구별하지 못할 것이다.</p>
+                        </section>
+                        <section data-section="12">
+                          <p class="narrow">하드웨어의 새로운 발전은 이런 숨바꼭질 게임을 쓸모없게 만든다. 새로운 1인치 레코더(미국방송협회에 의해 방송용으로 승인되었다)는 2인치 녹화 장치보다 아마도 더 훌륭할 것이다. 필자는 WHET TV-Lab이 3/4인치 재생시스템에 맞춘 마스터링 시스템에서 1인치 마스터링 시스템으로 업그레이드시켜 예술가들이 만든 비디오가 방송 표준을 완전히 충족시킬 수 있도록 해야 한다고 강력히 주장한다. 2인치 시스템일 경우에는 하루 2,500달러, 1인치일 경우는 하루 5백 달러의 차액이 생기므로, 이것은 새로운 장비(약 7만 달러)를 구입한 뒤 35일이 지나거나 대략 10개의 텔레비전 프로그램을 방영하면 충당된다.
+                          </p>
+                        </p>
+                        <p class="narrow num">
+                          <b>E. 인덱스 만들기
+                          </b><br>
+                          <뉴욕 타임스="타임스">의 위력은 발행 부수와 인용 가치 면뿐만 아니라 인텍스가 철저한
+                            <strong>유일한ONLY</strong>
+                            신문이라는 사실에서도 찾아볼 수 있다. 찰나처럼 지나가는 텔레비전 프로그램 화면은 아침햇살에 사라지는 이슬처럼 다음 화면에 밀려 순식간에 지나간다. PBS가 방송계의
+                            <뉴욕 타임스="타임스">가 되고 싶다면 비판적 재평가를 위해 비디오 디스크를 이용한 하드카피 인덱스 레퍼런스 시스템을 개발할 필요가 있다. 그렇게 되면 PBS는 만들어질 당시 충분히 환영받지 못하는 예술가에 대해서도 미래의 방영을 목표로 프로그램을 제작할 수 있다. 그럼으로써 우리는 마르셀 뒤샹과 해리 파치 같은 미국 미술계와 음악계의 두 위대한 거장을 놓치는 당혹스러운 실수를 피할 수 있다. 두 예술가는 얼마 전 고령의 나이가 되어 세상을 떠났다. PBS는 수천 년이 지나도 이 불명예를 씻지 못할 것이다.
+                              <p>필자는 2차 카네기위원회 보고서에서 중요한 두 곳을 인용하여 기록으로 남기고 싶다.
+                              </p>
+                              <p class="narrow nomargin_bottom">국립예술기금은 융통성을 발휘하여 방송 및 비방송 시스템을 활용한 실험과 고위험 프로젝트를 지원해야 한다.(162쪽) ...... 국립예술기금은 라디오와 텔레비전 프로그램 방송 개발을 넘어서는 프로그램 미션을 가지게 될 것이다.</p>
+
+                            </p>
+                          </section>
+                          <section data-section="13">
+                            <p class="narrow nomargin_top">아마도 그것은 공중통신(public telecommunications)에 적용할 수 있는 테크놀로지를 개발하기 위한 다양한 실험들에 대한 지원일 것이다.(170쪽).<br></p>
+                            <p>비디오 예술가들은 항상 선구자였다. 우리는 대안적 배급과 비판적 재평가를 위해 미술관과 대학, 커뮤니터센터, 도서관을 활용한
+                              <strong>국제INTERNATIONAL</strong>
+                              비디오 네트워크를 만든 최초의 사회적 집단이다. 지원주체(록펠러 재단, 국립예술기금, 뉴욕예술위원회)들은 비방송 예술을 지원하는 일을 계속해야 하며, 이런 지원은 다른 주체들에게까지 확대되어야 한다. 그리고 2차 카네기위원회 보고서가 제안한 기금은 R과 D 예산에 이 같은 비방송 예술가들과 프로그램 제작 벤처들을 그 대상으로 포함해야 한다.
+                            </p>
+                            <p>에즈라 파운드의 명성은 그가 이탈리아에서 했던 방송 때문이 아니다.</p>
+                            <br><br><br><br>
+
+                          </section>
+
+                        </div>
+                        <div class="bottomFrame"></div>
+
+                      </content>
+                    </div>
+                  </body>
+                  <script type="text/javascript">
+                    var $scrollable = $('.v-scrollable');
+                    //make scrollbar
+                    var $scrollbar = $(".scrollbarThumb"),
+                      height = $scrollable.outerHeight(true), // visible height
+                      scrollHeight = $scrollable.prop("scrollHeight"), // total height
+                      barHeight = height * height / scrollHeight; // Scrollbar height!
+
+                    console.log(barHeight);
+
+                    // Scrollbar drag:
+                    $scrollbar
+                      .height(barHeight)
+                      .draggable({
+                        axis: "y",
+                        containment: "parent",
+                        drag: function (e, ui) {
+                          console.log(ui.position.top + ' | dragging');
+                          console.log(scrollHeight / height * ui.position.top + ' | draggingamount');
+                          $scrollable.scrollTop(scrollHeight / height * ui.position.top);
+                        }
+                      });
+
+                    // Element scroll:
+                    let scrollDetect = true;
+                    var currentScrollsection = 0;
+                    var currentSlidersection = 0;
+                    var scrolloffsetting = [];
+                    var scrollpositionsetting = [];
+                    $('section[data-section]').each(function (index, item) {
+                      scrolloffsetting[index] = $(this)
+                        .offset()
+                        .top;
+                      scrollpositionsetting[index] = $(this)
+                        .position()
+                        .top - 60;
+                      // console.log(scrolloffsetting[index] + 'offset | index' + index);
+                      // console.log(scrollpositionsetting[index] + 'position | index' + index);
+                    });
+                    $scrollable.on("scroll", function () {
+                      if (scrollDetect == true) {
+                        $.each(scrollpositionsetting, function (index, item) {
+                          console.log($('section[data-section=1]').offset().top);
+                          if ($('section[data-section=1]').position().top * -1 <= this) {} else {
+                            return currentScrollsection = index;
+                          }
+                        });
+                        // console.log(currentScrollsection);
+
+                        if (currentScrollsection != $('.slick-current').attr("data-slick-index")) {
+                          $(".carousel").slick("slickGoTo", currentScrollsection)
+                        };
+                      }
+                    });
+
+                    $('.carousel').on('afterChange', function () {
+                      $scrollbar.css({
+                        top: $('section')
+                          .position()
+                          .top * -1 / height * barHeight
+                      });
+
+                      function slideMove(callback) {
+                        afterSection = $('.slick-current').attr("data-slick-index");
+                        // console.log(afterSection);
+                        // console.log('슬라이더움직임 감ㅣ');
+                        console.log(currentScrollsection);
+                        console.log(afterSection);
+                        // console.log(scrolloffsetting[afterSection]);
+                        if (currentScrollsection != afterSection) {
+                          console.log('슬라이더움직임 감ㅣ');
+                          scrollDetect = false;
+                          $scrollable.animate({
+                            scrollTop: scrollpositionsetting[afterSection]
+                          }, 200);
+                          console.log(scrollDetect);
+
+                          callback();
+
+                        };
+                      }
+                      slideMove(scrollDetectrestore);
+                    });
+
+                    function scrollDetectrestore() {
+                      setTimeout(() => {
+                        scrollDetect = true;
+                        console.log(scrollDetect);
+                        currentScrollsection = $('.slick-current').attr("data-slick-index");
+                      }, 500)
+                    }
+
+                    //       $('.carousel').on('afterChange', function() {
+                    //     var dataId = $('.slick-current').attr("data-slick-index");
+                    //     var section = Number(dataId);
+                    //     console.log(section);
+                    //     $scrollable.animate({scrollTop:scrolloffsetting[dataId]},200);
+
+                    // });
+                    $(document).ready(function () {
+                      let sliderConatainer = $(".carousel");
+                      $(".carousel").slick({
+                        dots: false,
+                        infinite: false,
+                        autoplay: false,
+                        speed: 200,
+                        fade: false,
+                        variableWidth: true,
+                        centerMode: true,
+
+                        cssEase: "ease-in-out"
+                      });
+
+                      $(".animsition").animsition({
+                        inClass: 'fade-in',
+                        outClass: 'fade-out',
+                        inDuration: 800,
+                        outDuration: 800,
+                        linkElement: '.animsition-link',
+                        // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+                        loading: true,
+                        loadingParentElement: 'body', //animsition wrapper element
+                        loadingClass: 'animsition-loading',
+                        loadingInner: '', // e.g '<img src="loading.svg" />'
+                        timeout: false,
+                        timeoutCountdown: 5000,
+                        onLoadEvent: true,
+                        browser: [
+                          'animation-duration', '-webkit-animation-duration'
+                        ],
+                        // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+                        // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+                        overlay: false,
+                        overlayClass: 'animsition-overlay-slide',
+                        overlayParentElement: 'body',
+                        transition: function (url) {
+                          window.location.href = url;
+                        }
+                      });
+                    });
+                    $status = $(".pagingInfo")
+                    $(".carousel").on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+                      //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+                      var i = (
+                        currentSlide
+                        ? currentSlide
+                        : 0) + 1;
+                      $status.text(i + '/' + slick.slideCount);
+                    });
+                  </script>
+
+                </html>

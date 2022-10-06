@@ -1,0 +1,92 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang=" ko" ="ko" ">
+
+  <head>
+    <meta charset=" UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta content="width=1080, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" name="viewport">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <link rel="stylesheet" type="text/css" href="{% static "css/style.css" %}">
+    <link rel="stylesheet" type="text/css" href="{% static "css/pretendardvariable.css" %}">
+    <link rel="stylesheet" href="{% static "css/animsition.css" %}">
+    <script src="{% static "js/animsition.js" %}"></script>
+  </head>
+
+  <body>
+    <div class="animsition">
+      <div class="wrapper_1080">
+        <header>
+          <div class=""></div>
+          <div class="titleArea">
+            <h2 class="articleTitle">백남준의 보고서 1968-1979</h2>
+            <h2 class="articleTitle En">The Consultant : Paik’s Papers 1968-1979</h3>
+          </div>
+          <div></div>
+        </header>
+        <div class="anchorwrap">
+          <a class="gridbox_2 animsition-link" href="{%url 'first' %}">
+            <div class="anchor">
+              <h2 class="anchorTitle">종이 없는 사회를 위한 확장된 교육</h2>
+              <h2 class="anchorTitle En">Expanded Education For Paperless Society</h3>
+              <span class="year">1968</span>
+            </div>
+            <div class="thumb"><img src="{% static "source/imgsrc/P01.jpg"%}"></div>
+          </a>
+          <a class="gridbox_2 animsition-link" href="{%url 'second' %}">
+            <div class="anchor">
+              <h2 class="anchorTitle">후기산업사회를 위한 미디어 계획</h2>
+              <h2 class="anchorTitle En">Media Planning For The Post Industrial Age</h3>
+              <span class="year">1974</span>
+            </div>
+            <div class="thumb"><img src="{% static "source/imgsrc/P02.jpg"%}"></div>
+          </a>
+          <a class="gridbox_2 animsition-link" href="{%url 'third' %}">
+            <div class="anchor">
+              <h2 class="anchorTitle">어떻게 실험 비디오를
+                <br>PBS 전국 방송에 존속시킬 것인가</h2>
+              <h2 class="anchorTitle En">How to keep Experimental Video on PBS National Programming</h3>
+              <span class="year">1979</span>
+            </div>
+            <div class="thumb"><img src="{% static "source/imgsrc/P03.jpg"%}"></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".animsition").animsition({
+        inClass: 'fade-in',
+        outClass: 'fade-out',
+        inDuration: 800,
+        outDuration: 800,
+        linkElement: '.animsition-link',
+        // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+        loading: true,
+        loadingParentElement: 'body', //animsition wrapper element
+        loadingClass: 'animsition-loading',
+        loadingInner: '', // e.g '<img src="loading.svg" />'
+        timeout: true,
+        timeoutCountdown: 5000,
+        onLoadEvent: true,
+        browser: [
+          'animation-duration', '-webkit-animation-duration'
+        ],
+        // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+        // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+        overlay: false,
+        overlayClass: 'animsition-overlay-slide',
+        overlayParentElement: 'body',
+        transition: function (url) {
+          window.location.href = url;
+        }
+      });
+    });
+  </script>
+
+</html>

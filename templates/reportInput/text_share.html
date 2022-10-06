@@ -1,0 +1,12 @@
+<div>
+  <form action="{% url 'reportInput:share' reportinputstring_pk %}" method='POST'>
+    {% csrf_token %}
+    <label for="sns_choices">Enter name:
+    </label>
+    <input id="sns_choices" type="text" name="name_field" value="Default name for team.">
+    <label for="snsID">Enter name:
+    </label>
+    <input id="snsID" type="text" name="name_field" value="Default name for team.">
+    <input type="submit" value="OK">
+  </form>
+</div>
