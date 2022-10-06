@@ -11,9 +11,8 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 from pathlib import Path
-from os import path
 import os
-
+import json
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -22,12 +21,16 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-$=igg5+68zcn0(=2g75%1tsi@@4y*8npua@-*ac)o$_ul!_w54"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["127.0.0.1"]
+ALLOWED_HOSTS = ["*"]
+
+ROOT_DIR = os.path.dirname(BASE_DIR)
+SECRET_DIR = os.path.join(BASE_DIR, '.secrets')
+secrets = json.load(open(os.path.join(SECRET_DIR, 'secret.json'), 'rb'))
+SECRET_KEY = secrets['SECRET_KEY']
 
 
 # Application definition
@@ -67,7 +70,7 @@ ROOT_URLCONF = "Paik.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [path.join(BASE_DIR, 'templates')],
+        "DIRS": [os.path.join(BASE_DIR, 'templates')],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -130,7 +133,7 @@ USE_TZ = False
 STATIC_URL = "/static/"
 STATICFILES_DIRS = [BASE_DIR/'static']
 
-MEDIA_ROOT = path.join(BASE_DIR, 'media')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 # Default primary key field type
